@@ -80,7 +80,7 @@ nav{
 .section-1{
     height: 600px;
     width: 100%;
-   background-image: url(https://www.twoleavestea.com/cdn/shop/files/Yuzu_Hero_mobile_2dd2a935-ce43-49d1-b42c-0d816f2959dd.png?v=1789483608&width=1350.0);
+   background-image: url(/imges/yuzu.png);
    background-position: center;
    background-size: cover;
    display: flex;
