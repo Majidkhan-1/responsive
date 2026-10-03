@@ -17,7 +17,8 @@ main{
     width:100%;
     min-height: 100vh;
     background-color: rgb(251, 249, 235);
-        padding: 1vw;
+        /* padding: 1vw; */
+        position: relative;
 }
 
 nav{
@@ -28,6 +29,7 @@ nav{
     justify-content: space-between;
     font-family: Reckless;
     padding: 0.5vw 1vw;
+    z-index:1;
     position: sticky;     
     top: 0;
     left: 0;
@@ -76,7 +78,36 @@ nav{
 }
 
 .section-1{
-    height: 100%;
+    height: 600px;
     width: 100%;
-    background-color: blue;
+   background-image: url(https://www.twoleavestea.com/cdn/shop/files/Yuzu_Hero_mobile_2dd2a935-ce43-49d1-b42c-0d816f2959dd.png?v=1789483608&width=1350.0);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   padding: 2rem;
+   align-items: start;
+
+}
+
+.section-1 h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 300;
+    font-family: Reckless;
+
+}
+
+.section-1 p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}
+
+.section-1 button{
+    padding:0.8vh 3vw;
+    border-radius: 2rem ;
+    background-color: rgb(53, 53, 97);
+    color: white;
 }
